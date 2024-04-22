@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: rebeccapurple; */
+    padding: 35px 55px;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#nav h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+#nav h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+#nav h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+#content{
+    margin-top: 30px;
+    padding: 40px 60px;
+}
+#content h3{
+    font-size: 35px;
+    font-weight: 600;
+}
+#content h1{
+    margin-top: 25px;
+    font-size: 140px;
+    font-weight: 400;
+    line-height: 140px;
+    letter-spacing: -3px;
+}
+#case{
+    padding: 30px 60px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+#case h5{
+    font-size: 25px;
+    font-weight: 600;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 100px;
+    color: black;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    gap: 90px;
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height: 470px;
+    background-color: palevioletred;
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img2{
+    background-image: url(https://oieba.in/wp-content/uploads/2022/08/ui-ux-mobile-app-design-vrushali-1025x720.jpg);
+}
+#img1{
+    background-image: url(https://i.pinimg.com/736x/0c/7b/c3/0c7bc328021beb4f921fb19399c86f6d.jpg);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.bottom i{
+    padding: 12px 20px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+.bottom h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.bottom h4{
+    font-size: 20px;
+    color: rgb(98, 94, 94);
+    font-weight: 400;
+    
+}
